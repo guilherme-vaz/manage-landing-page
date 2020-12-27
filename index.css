@@ -17,7 +17,7 @@
     --very-pale-red: hsl(13, 100%, 96%);
     --very-light-gray: hsl(0, 0%, 98%);
 }
-
+ 
 body {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 16px;
@@ -224,21 +224,26 @@ li a:hover {
     color: var(--dark-grayish-blue);
 }
 
+
 .bottom-logo {
-    margin-bottom: 50%;
+    margin-bottom: 2em;
 }
 
-.bottom-links a {
-   margin-right: 10px;
-    
+.bottom-links li {
+    display: inline;
+    margin-right: 1em;
+}
+.bottom-contact{
+    margin-right: 5rem;
 }
 
-.bottom-contact ul{
+.bottom-contact ul {
     list-style: none;
 }
 
-.bottom-contact li {
-    margin-bottom: 10%;
+.bottom-contact li{
+    margin-bottom: 1em;
+
 }
 
 .bottom-contact a {
@@ -253,18 +258,38 @@ li a:hover {
 .bottom-button {
     max-width: 60%;
 }
-#email {
-    border-radius: 3rem !important;
+
+.email {
+    padding: 10px;
+    border-radius: 1.5rem;
+    border: none;
+    margin-right: 1em;
+    outline: none;
 }
 
-.copyright {
-    margin-top: 36%;
+.form-button {
+    background-color: var(--bright-red);
+    border: none;
+    padding: 10px;
+    border-radius: 2rem;
+    color: white;
+   
 }
 
 .attribution {
     text-align: center;
     color: var(--very-light-gray);
-    margin-top: 5%;
+}
+
+footer {
+    text-align: center;
+    position: static;
+}
+
+
+
+footer a {
+    display: inline;
 }
 
 @media (max-width: 1200px){
